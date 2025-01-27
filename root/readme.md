@@ -32,17 +32,13 @@ The normalization technique works using the following formula:
 $$X_{\text{norm}} = \frac{X - \mu}{\sigma}$$
 
 Where:
-$$ 
-\mu = \frac{\sum_{i=1}^n x_i}{n}, \quad \sigma = \sqrt{\frac{\sum_{i=1}^n (x_i - \mu)^2}{n}} 
-$$
+$$\mu = \frac{\sum_{i=1}^n x_i}{n}, \quad \sigma = \sqrt{\frac{\sum_{i=1}^n (x_i - \mu)^2}{n}}$$
 
 ### Logistic Regression
 
 Logistic regression is one of the best algorithms when it comes to working on classification problems, especially if it is just a binary classification. The function used in logistic regression is the **sigmoid function**:
 
-$$
-f(x) = \frac{1}{1 + e^{-x}}
-$$
+$$f(x) = \frac{1}{1 + e^{-x}}$$
 
 Where:
 - \( f(x) \) is the output of the sigmoid function.
@@ -51,9 +47,7 @@ Where:
 
 The logistic regression cost function (also known as the **log-loss** or **binary cross-entropy loss**) is given by:
 
-$$
-J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(f_w(x^{(i)})) + (1 - y^{(i)}) \log(1 - f_W(x^{(i)})) \right]
-$$
+$$J(\theta) = -\frac{1}{m} \sum_{i=1}^{m} \left[ y^{(i)} \log(f_w(x^{(i)})) + (1 - y^{(i)}) \log(1 - f_W(x^{(i)})) \right]$$
 
 Where:
 - **m** is the number of training examples.
@@ -64,26 +58,20 @@ Where:
 
 Scikit-learn is used for evaluating the model's performance. The model outputs accuracy, confusion matrix, and classification metrics such as F1 Score:
 1. **Accuracy**: 
-$$
-Accuracy = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}}
-$$
+$$Accuracy = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}}$$
 2. **Confusion Matrix**:
-$$
-Confusion\;matrix = 
+$$Confusion\;matrix = 
 \begin{bmatrix}
 \text{TP} & \text{FN} \\
 \text{FP} & \text{TN}
-\end{bmatrix}
-$$
+\end{bmatrix}$$
 - **TP** - True Positive
 - **FN** - False Negative
 - **FP** - False Positive
 - **TN** - True Negative
 
 3. **F1 Score**:
-$$
-F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
-$$
+$$F1 = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}$$
 Where:
 - **Precision** = $$\frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Positives (FP)}}$$
 - **Recall** = $$\frac{\text{True Positives (TP)}}{\text{True Positives (TP)} + \text{False Negatives (FN)}}$$
