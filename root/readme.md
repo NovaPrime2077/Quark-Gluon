@@ -29,9 +29,7 @@ For more details on these specific features, I request you to refer to this link
 The unnormalized data varies between a greater range, which might hamper effective learning of the model since convergence is reached in a much more stable fashion when data is normalized. The normalization technique used for this model is known as **Z-Score Normalization**.
 
 The normalization technique works using the following formula:
-$$
-X_{\text{norm}} = \frac{X - \mu}{\sigma}
-$$
+$$X_{\text{norm}} = \frac{X - \mu}{\sigma}$$
 
 Where:
 $$ 
