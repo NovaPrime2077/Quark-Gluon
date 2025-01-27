@@ -60,11 +60,8 @@ Scikit-learn is used for evaluating the model's performance. The model outputs a
 1. **Accuracy**: 
 $$Accuracy = \frac{\text{Number of Correct Predictions}}{\text{Total Number of Predictions}}$$
 2. **Confusion Matrix**:
-$$Confusion\;matrix = 
-\begin{bmatrix}
-\text{TP} & \text{FN} \\
-\text{FP} & \text{TN}
-\end{bmatrix}$$
+
+$$\text{Confusion Matrix} =\begin{bmatrix}\text{TP} & \text{FN} \\\ \text{FP} & \text{TN}\end{bmatrix}$$
 - **TP** - True Positive
 - **FN** - False Negative
 - **FP** - False Positive
