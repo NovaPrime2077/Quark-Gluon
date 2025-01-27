@@ -12,7 +12,7 @@ For more details on these specific features, I request you to refer to this link
 2. **plot.py** - Python script mainly written using AI with minor tweaks for visualization of certain aspects of the model.
 3. **weights.txt** - The final weights acquired after running the model [**Please see the testing section below before testing the weights and bias**].
 4. **bias.txt** - The final bias acquired after running the model [**Please see the testing section below before testing the weights and bias**].
-5. **Files in the data folder** - The dataset of the model (source already provided **see above**, **extract the .npz by changing it to .zip and then using the 2 binary inside it**).
+5. **Files in the data folder** - The dataset of the model (source already provided **see above** the first downloadable file QG_jets.npz is the dataset for the model, **extract using 7Zip/winrar the .npz by changing it to .zip and then using the 2 binary (.npy files) inside it**).
 
 ## Approach
 1. **Organizing Data**
