@@ -8,11 +8,12 @@ Pythia is a program which specializes in the generation of high energy collision
 For more details on these specific features, I request you to refer to this link - [DOI link](https://doi.org/10.5281/zenodo.2658763)
 
 ## Files involved
-1. **main.ipynb** - The main notebook through which the entire model runs.
-2. **plot.py** - Python script for visualization of certain aspects of the model.
-3. **weights.txt** - The final weights acquired after running the model [**Please see the testing section below before testing the weights and bias**].
-4. **bias.txt** - The final bias acquired after running the model [**Please see the testing section below before testing the weights and bias**].
-5. **Files in the data folder** - The dataset of the model (source already provided **see above** the first downloadable file QG_jets.npz is the dataset for the model, **extract using 7Zip/winrar the .npz by changing it to .zip and then using the 2 binary (.npy files) inside it**).
+1. **main[NeuralNetwork_implementation].ipynb** - The updated notebook that uses neural networks for a much better accuracy.
+2. **main.ipynb** - The main notebook through which the entire model runs.
+3. **plot.py** - Python script for visualization of certain aspects of the model.
+4. **weights.txt** - The final weights acquired after running the model [**Please see the testing section below before testing the weights and bias**].
+5. **bias.txt** - The final bias acquired after running the model [**Please see the testing section below before testing the weights and bias**].
+6. **Files in the data folder** - The dataset of the model (source already provided **see above** the first downloadable file QG_jets.npz is the dataset for the model, **extract using 7Zip/winrar the .npz by changing it to .zip and then using the 2 binary (.npy files) inside it**).
 
 ## Approach
 1. **Organizing Data**
